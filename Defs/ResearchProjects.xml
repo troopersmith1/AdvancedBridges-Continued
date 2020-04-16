@@ -6,7 +6,7 @@
 		<label>advanced bridge building</label>
 		<description>Allows heavy bridges to be built from stone or metal, which unlike basic wooden bridges, can support walls and other heavy construction.</description>
 		<baseCost>500</baseCost>
-		<techLevel>Industrial</techLevel>
+		<techLevel>Medieval</techLevel>
 		<researchViewX>3</researchViewX>
 		<researchViewY>1</researchViewY>
 	</ResearchProjectDef>
