@@ -23,6 +23,7 @@
   <StoneBridgeWaterOceanDeep.label>遠洋(橋の下)</StoneBridgeWaterOceanDeep.label>
   <StoneBridgeWaterMovingChestDeep.label>腰ぐらいの小川(橋の下)</StoneBridgeWaterMovingChestDeep.label>
   <StoneBridgeWaterShallow.label>浅瀬(橋の下)</StoneBridgeWaterShallow.label>
+  <StoneBridgeWaterShallowLagoon.label>干潟(橋の下)</StoneBridgeWaterShallowLagoon.label>
   <StoneBridgeWaterOceanShallow.label>近海(橋の下)</StoneBridgeWaterOceanShallow.label>
   <StoneBridgeWaterMovingShallow.label>水流(橋の下)</StoneBridgeWaterMovingShallow.label>
   <StoneBridgeMarsh.label>沼(橋の下)</StoneBridgeMarsh.label>
@@ -31,6 +32,5 @@
   <StoneBridgeMarshyTerrain.label>湿地(板敷歩道の下)</StoneBridgeMarshyTerrain.label>
   <StoneBridgeIce.label>氷面(板敷歩道の下)</StoneBridgeIce.label>
   <StoneBridgeLand.label>地面(板敷歩道の下)</StoneBridgeLand.label>
-
 
 </LanguageData>
