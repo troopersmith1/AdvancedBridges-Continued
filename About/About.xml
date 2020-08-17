@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
 
-	<name>[RF] Advanced Bridges 1.1</name>
+	<name>[RF] Advanced Bridges Continued [1.0][1.1][1.2]</name>
 	<author>Rainbeau Flambe - troopersmith1</author>
 	<url>https://ludeon.com/forums/index.php?topic=46165</url>
 	<supportedVersions>
 	<li>1.0</li>
 	<li>1.1</li>
+	<li>1.2</li>
 	</supportedVersions>
 	<packageId>Troopersmith1.AdvancedBridges1.1</packageId>
 	<description>(Last update: 12/05/2018)
