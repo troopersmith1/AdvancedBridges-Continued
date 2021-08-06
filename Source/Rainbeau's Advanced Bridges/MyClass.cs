@@ -195,9 +195,9 @@ namespace RBB_Code {
 	}
 	
 	public class Building_Bridge : Building {
-	
-        public readonly static TerrainDef BridgeSoilDef = TerrainDef.Named("BridgeLand");
-		
+
+		public readonly static TerrainDef BridgeSoilDef = TerrainDef.Named("BridgeLand");
+
 		public string TerrainTypeAtBaseCellDefAsString;
 		public override void Destroy(DestroyMode mode = 0) {
 			base.Map.snowGrid.SetDepth(base.Position, 0f);
@@ -273,28 +273,28 @@ namespace RBB_Code {
 					map.terrainGrid.SetTerrain(base.Position, TerrainDef.Named("BridgeWaterShallow"));
 				}
 				else
-                {
+				{
 
-                    var affordances = map.terrainGrid.TerrainAt(base.Position).affordances;
+					var affordances = map.terrainGrid.TerrainAt(base.Position).affordances;
 
-                    //no need to replace if affordances are met
-                    foreach (var affordance in BridgeSoilDef.affordances)
-                    {
-                        if (!affordances.Contains(affordance))
-                        {
-                            map.terrainGrid.SetTerrain(base.Position, BridgeSoilDef);
-                            return;
-                        }
-                    }
-                }
+					//no need to replace if affordances are met
+					foreach (var affordance in BridgeSoilDef.affordances)
+					{
+						if (!affordances.Contains(affordance))
+						{
+							map.terrainGrid.SetTerrain(base.Position, BridgeSoilDef);
+							return;
+						}
+					}
+				}
 			}
 		}
 	}
 
 	public class Building_Bridge_Stone : Building {
-	
-        public readonly static TerrainDef StoneBridgeSoilDef = TerrainDef.Named("StoneBridgeLand");
-		
+
+		public readonly static TerrainDef StoneBridgeSoilDef = TerrainDef.Named("StoneBridgeLand");
+
 		public string TerrainTypeAtBaseCellDefAsString;
 		public override void Destroy(DestroyMode mode = 0) {
 			base.Map.snowGrid.SetDepth(base.Position, 0f);
@@ -374,17 +374,17 @@ namespace RBB_Code {
 					map.terrainGrid.SetTerrain(base.Position, TerrainDef.Named("StoneBridgeWaterShallowLagoon"));
 				}
 				else {
-                    var affordances = map.terrainGrid.TerrainAt(base.Position).affordances;
+					var affordances = map.terrainGrid.TerrainAt(base.Position).affordances;
 
-                    //no need to replace if affordances are met
-                    foreach (var affordance in StoneBridgeSoilDef.affordances)
-                    {
-                        if (!affordances.Contains(affordance))
-                        {
-                            map.terrainGrid.SetTerrain(base.Position, StoneBridgeSoilDef);
-                            return;
-                        }
-                    }              
+					//no need to replace if affordances are met
+					foreach (var affordance in StoneBridgeSoilDef.affordances)
+					{
+						if (!affordances.Contains(affordance))
+						{
+							map.terrainGrid.SetTerrain(base.Position, StoneBridgeSoilDef);
+							return;
+						}
+					}
 				}
 			}
 		}
