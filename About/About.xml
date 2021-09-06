@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
 
-	<name>[RF] Advanced Bridges Continued [1.0][1.1][1.2]</name>
+	<name>[RF] Advanced Bridges Continued [1.0+]</name>
 	<author>Rainbeau Flambe - troopersmith1</author>
 	<url>https://ludeon.com/forums/index.php?topic=46165</url>
 	<supportedVersions>
@@ -54,5 +54,9 @@ If you're a modpack maker and want to include "Advanced Bridges" in your pack, o
 If you have any (helpful) suggestions for improvement, please let me know!
 
 	</description>
+	
+	<loadAfter>
+		<li>OskarPotocki.VanillaFactionsExpanded.MedievalModule</li>
+	</loadAfter>
 
 </ModMetaData>
